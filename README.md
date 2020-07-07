@@ -1,3 +1,4 @@
 # Production_Line_Controller
 This project is designed to improve a production line in a factory. It uses a photoresistor/Light Dependent Resistor (LDR) that measures the light intensity and passes higher voltages in the presence of higher intensity values. Making an inverse proportion between the light intensity and the resistance. Arduino acts as the main controller where it converts the sensor reading (analog 0-5V voltage) into (digital 0-1023 value) via its Analog to Digital Converter (ADC). This value reflects the amount of laser beam received by the LDR as boxes of three different sizes interrupt it. Moving boxes on the conveyor belt will be classified as (Small, Medium, Large) based on this information with more light (larger reading value), meaning smaller boxes. Each group of boxes will be moved to a specific container by moving the servo motor to a corresponding angle.
+
 *Here is a simulation for the project
